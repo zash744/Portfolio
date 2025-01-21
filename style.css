@@ -1,0 +1,265 @@
+
+
+
+:root{
+    --base-color: #d7eafd;
+    --primary-text:#0E141C;
+    --secondary-text:#6486a8;
+    --tertiary-text:#79a5d2;
+
+}
+
+.darkmode{
+    --base-color: #0E141C;
+    --primary-text:#d7eafd;
+    --secondary-text:#84b6e8;
+    --tertiary-text: #6486a8;
+}
+
+#theme-switch{
+    height: 100px;
+    width: 100px;
+    background-color: var(--base-color);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    border: 0;
+}
+
+svg{
+    color: var(--primary-text);
+}
+
+#theme-switch svg{
+    fill: var(--primary-text);
+}
+
+#theme-switch svg:last-child{
+    display: none;
+}
+
+.darkmode #theme-switch svg:first-child{
+    display:none;
+}
+
+.darkmode #theme-switch svg:last-child{
+    display: block;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+
+  }
+  
+  .left {
+    left: 0;
+
+  }
+
+    .content-left{
+    margin-left: 20%;
+    margin-top: 12%;
+    }
+  
+  .right {
+    right: 0;
+    overflow-y: auto;
+
+  }
+
+  .content-right{
+    margin-right: 20%;
+    margin-top: 13%;
+    }
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('AMRIGOB.TTF') format('truetype');
+}
+
+body{
+    font-family: 'Roboto';
+    background-color:var(--base-color);
+    color: var(--primary-text);
+}
+
+h1{
+    color: ;
+    font-size: 60px;
+    font-family: 'MyCustomFont', sans-serif;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 0%;
+
+}
+
+h2{
+    color: var(--secondary-text);
+    font-size: 18px;
+    font-family: ;
+    text-align: left;
+    font-weight: ;
+    margin-top: 1%;
+
+}
+
+h3{
+    color: var(--tertiary-text);
+    font-size: 16px;
+    font-family: ;
+    text-align: left;
+    font-weight: lighter;
+    margin-right: 30%;
+
+}
+
+h4{
+    color: var(--tertiary-text);
+    font-size: 14px;
+    font-family: ;
+    text-align: left;
+    font-weight: lighter;
+
+}
+
+h5{
+    color: ;
+    font-size: 18px;
+    font-family: 'MyCustomFont', sans-serif;
+    text-align: center;
+    font-weight: ;
+    margin-bottom: -2%;
+
+}
+
+h6{
+    color: var(--secondary-text);
+    font-size: 16px;
+    font-family: ;
+    text-align: left;
+    font-weight: lighter;
+    margin-top: 5%;
+    margin-bottom: 8px;
+
+}
+
+p{
+    color:var(--tertiary-text);
+    font-size: 16px;
+    font-family: ;
+    font-weight: ;
+
+}
+
+a{
+    color: var(--primary-text);
+    margin-top: 0%;
+    text-decoration: none;
+
+}
+
+ul{
+    color:var(--tertiary-text);
+}
+
+i{
+    color:var(--secondary-text);
+    margin-top: 0%;
+}
+
+img{
+    width: 30px;
+}
+
+.media{
+    margin-right: 7px;
+}
+
+.container{
+
+}
+
+video {
+    width: 575px;
+}
+
+#name{
+    width: 280px;
+    margin-right: 5px;
+}
+
+#email{
+    width: 280px;
+}
+
+#subject{
+    width: 575px;
+
+}
+
+#message{
+    width: 575px;
+}
+
+#flashlight {
+    pointer-events: none; 
+    position: fixed;
+    border-radius: 50%;
+    width: 800px; 
+    height: 800px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.07) 30%, rgba(0, 0, 0, 0) 70%);
+    mix-blend-mode: screen; 
+    transition: width 0.5s, height 0.5s; 
+    z-index: 10000; 
+  }
+
+.socials svg{
+    fill: var(--primary-text);
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.company{
+    color: var(--primary-text);
+    float: left;
+
+}
+
+.projects{
+    color:var(--primary-text);
+}
+
+.role{
+    margin-top:;
+    float:left;
+}
+
+.location{
+    color:var(--secondary-text);
+    float: right;
+    font-weight: bold;
+}
+
+.date{
+    color: var(--secondary-text);
+    float:right;
+    font-size: 13px;
+}
+
+#library{
+    text-align: center;
+    font-size: 50px;
+}
+
+.socials{
+    
+}
+
+.ast{
+    color: red;
+}
